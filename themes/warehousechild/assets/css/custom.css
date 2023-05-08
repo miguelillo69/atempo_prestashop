@@ -1,0 +1,23 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+
+.logo {
+    width: 80%;
+    margin-top:  5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+}
+
+.col-header-left {
+    width: 10%;
+}
+
+.fa {
+    color: white;
+}
+
+.fa:hover {
+   color: #f5be2b;
+}
