@@ -19,8 +19,27 @@
 }
 
 .fa:hover {
-   color: #f5be2b;
+    color: #f5be2b;
 }
- #wrapper {
-     margin-top: -1.5%;
- }
+#wrapper {
+    margin-top: -1.5%;
+}
+
+
+.imagen_efecto img {
+    filter: grayscale(40%);
+}
+
+.imagen_efecto img:hover {
+    filter: grayscale(0%);
+}
+
+.imagen_fija {
+    background-image: url("../img/Interior 10 C_pequeña.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    height: 500px;
+}
+
+
